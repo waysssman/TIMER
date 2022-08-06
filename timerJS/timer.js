@@ -19,7 +19,7 @@ function makeCorrectDate(uncorrectDate) {
   return correctDate;
 }
 
-// сколько времени осталось
+// сколько времени осталось до окончания таймера
 function getDateRemaining(timesup) {
   // total = оставшееся вермя
   var total = Date.parse(timesup) - Date.now();

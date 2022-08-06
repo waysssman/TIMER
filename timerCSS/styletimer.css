@@ -7,7 +7,7 @@
     cursor: default;
   }
   
-  /*       текст под цифрами       */
+  /*       текст под цифрами дни часы мин сек       */
   .days, .hours, .minutes, .seconds {
     font-size: 55px;
     font-family: DS-Digital;
@@ -15,7 +15,7 @@
     margin: 0 auto;
   }
   
-  /*         цифры таймера         */
+  /*         цифры таймера          */
   .uncorrectDays, .uncorrectHours,
   .uncorrectMinutes, .uncorrectSeconds {
     font-size: 18px;
